@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+h1 {
+    font-size: 50px;
+    font-family: Roboto, sans-serif;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin: 5% 20%;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px #777777;
+    width: 500px;
+}
+
+div {
+    text-align: center;
+    border-radius: 10px 60px;
+    margin-bottom: 20px;
+    background-color: orange;
+    height: 400px;
+    line-height: 35px;
+}
+
+.info {
+    font-size: 20px;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    text-align: center;
+}
+
+/* iPad */
+@media (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    div {
+        height: 350px;
+    }
+
+    .info {
+        font-size: 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    div {
+        height: 275px;
+    }
+
+    .info {
+        font-size: 12px;
+    }
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    font-family: Roboto, sans-serif;
+    display: inline;
+    margin: 10px;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    /* Hides Bullet Points */
+}
+
+a {
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color: greenyellow;
+}
+
+.aboutme {
+    background-color: orange;
+    color: darkblue;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 4px #000;
+}
